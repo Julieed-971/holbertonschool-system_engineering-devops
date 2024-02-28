@@ -46,7 +46,7 @@ A lot of websites are powered by simple web infrastructure, a lot of time it is 
 On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.
 
 * Requirements:
- 1. You must use:
+You must use:
   * 1 server
   * 1 web server (Nginx)
   * 1 application server
