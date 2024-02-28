@@ -103,7 +103,7 @@ On a whiteboard, design a three server web infrastructure that hosts the website
 
 * You must add:
   * 3 firewalls
-  * 1 SSL certificate to serve www.foobar.com over HTTPS
+  * 1 SSL certificate to serve `www.foobar.com` over HTTPS
   * 3 monitoring clients (data collector for Sumologic or other monitoring services)
 * You must be able to explain some specifics about this infrastructure:
   * For every additional element, why you are adding it
