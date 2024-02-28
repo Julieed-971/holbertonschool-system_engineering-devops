@@ -39,24 +39,25 @@ Learn about web infrastructure design.
 
 ## Mandatory Tasks
 
-### Task  0. Simple web stack 
+### Task  0. Simple web stack
 
 A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a LAMP stack.
 
-On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via www.foobar.com. Start your explanation by having a user wanting to access your website.
+On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via `www.foobar.com.` Start your explanation by having a user wanting to access your website.
 
 #### Requirements:
+
 * You must use:
   * 1 server
   * 1 web server (Nginx)
   * 1 application server
   * 1 application files (your code base)
   * 1 database (MySQL)
-  * 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
+  * 1 domain name `foobar.com` configured with a www record that points to your server IP `8.8.8.8`
 * You must be able to explain some specifics about this infrastructure:
   * What is a server
   * What is the role of the domain name
-  * What type of DNS record www is in <www.foobar.com>
+  * What type of DNS record `www` is in `www.foobar.com`
   * What is the role of the web server
   * What is the role of the application server
   * What is the role of the database
@@ -68,7 +69,31 @@ On a whiteboard, design a one server web infrastructure that hosts the website t
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
-### Task  1. Distributed web infrastructure 
+### Task  1. Distributed web infrastructure
+
+On a whiteboard, design a three server web infrastructure that hosts the website `www.foobar.com.`
+
+#### Requirements:
+
+* You must add:
+ * 2 servers
+ * 1 web server (Nginx)
+ * 1 application server
+ * 1 load-balancer (HAproxy)
+ * 1 set of application files (your code base)
+ * 1 database (MySQL)
+* You must be able to explain some specifics about this infrastructure:
+ * For every additional element, why you are adding it
+ * What distribution algorithm your load balancer is configured with and how it works
+ * Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
+ * How a database Primary-Replica (Master-Slave) cluster works
+ * What is the difference between the Primary node and the Replica node in regard to the application
+* You must be able to explain what the issues are with this infrastructure:
+ * Where are SPOF
+ * Security issues (no firewall, no HTTPS)
+ * No monitoring
+
+Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
 ### Task  2. Secured and monitored web infrastructure 
 
