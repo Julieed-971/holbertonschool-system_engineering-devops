@@ -5,8 +5,6 @@
 - [Objectives](#objectives)
 - [Description](#Descritpion)
 - [Requirements](#requirements)
-- [Python Scripts](#Python-Scripts)
-- [Python Test Cases](#Python-Unit-Tests)
 - [Mandatory Tasks](#Mandatory-Tasks)
 
 ## Objectives
