@@ -53,18 +53,18 @@ On a whiteboard, design a one server web infrastructure that hosts the website t
   * 1 application files (your code base)
   * 1 database (MySQL)
   * 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
- 1. You must be able to explain some specifics about this infrastructure:
-  1. What is a server
-  1. What is the role of the domain name
-  1. What type of DNS record www is in <www.foobar.com>
-  1. What is the role of the web server
-  1. What is the role of the application server
-  1. What is the role of the database
-  1. What is the server using to communicate with the computer of the user requesting the website
- 1. You must be able to explain what the issues are with this infrastructure:
-  1. SPOF
-  1. Downtime when maintenance needed (like deploying new code web server needs to be restarted)
-  1. Cannot scale if too much incoming traffic
+* You must be able to explain some specifics about this infrastructure:
+  * What is a server
+  * What is the role of the domain name
+  * What type of DNS record www is in <www.foobar.com>
+  * What is the role of the web server
+  * What is the role of the application server
+  * What is the role of the database
+  * What is the server using to communicate with the computer of the user requesting the website
+* You must be able to explain what the issues are with this infrastructure:
+  * SPOF
+  * Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+  * Cannot scale if too much incoming traffic
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
 
