@@ -1,4 +1,4 @@
-**For every additional element, why are you adding it:**
+## For every additional element, why are you adding it:
 
 The final added component is another HAProxy configured as cluster with the other one.
 This resolve the remaining single point of failure.
